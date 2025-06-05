@@ -1,0 +1,23 @@
+modLoader="javafml" #mandatory
+loaderVersion="[43,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="GPLv3"
+[[mods]] #mandatory
+modId="alienday" #mandatory
+version="1.20.1-1.0.0" #mandatory
+displayName="Alien Day" #mandatory
+authors="Rinko1231" #optional
+description="Give alien friends the freedom to not celebrate days they don’t understand."
+configBackground="minecraft:textures/block/bricks.png"
+
+[[dependencies.alienday]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[43,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.alienday]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,)"
+    ordering="NONE"
+    side="BOTH"
